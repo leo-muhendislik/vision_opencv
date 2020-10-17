@@ -3,7 +3,7 @@ project(image_geometry)
 
 set(CMAKE_CXX_STANDARD 11)
 find_package(catkin REQUIRED sensor_msgs)
-set(OpenCV_DIR "/home/user/libraries/libopencv-4.4.0/lib/cmake/opencv4/")
+set(OpenCV_DIR "~/libraries/libopencv-4.4.0/lib/cmake/opencv4/")
 find_package(OpenCV 4.4 REQUIRED)
 
 catkin_package(CATKIN_DEPENDS sensor_msgs

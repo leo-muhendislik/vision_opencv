@@ -14,7 +14,7 @@ if(NOT ANDROID)
 else()
 find_package(Boost REQUIRED)
 endif()
-set(OpenCV_DIR "/home/user/libraries/libopencv-4.4.0/lib/cmake/opencv4/")
+set(OpenCV_DIR "~/libraries/libopencv-4.4.0/lib/cmake/opencv4/")
 find_package(OpenCV 4.4 REQUIRED
   COMPONENTS
     opencv_core
